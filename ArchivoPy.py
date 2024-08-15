@@ -5,3 +5,9 @@ def saludar(nombre):
 #funcion que se despida de una persona
 def despedir(nombre):
     return "Adios " + nombre + "!"
+
+def main():
+    print(saludar("Juan"))
+    print(despedir("Juan"))
+
+main()
